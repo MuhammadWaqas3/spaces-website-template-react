@@ -1,0 +1,170 @@
+.navbar {
+
+  font-family: 'Poppins', sans-serif;
+   padding-top: 3% !important; 
+ 
+  display: flex;
+position: sticky;
+top:0;
+ 
+}
+
+.logo {
+  font-size: large;
+  margin-left: 5%;
+}
+
+#dropdown-heading,
+#legal,
+#blog,
+#special,
+#support {
+  font-weight: 800;
+  font-size: 16px;
+  color: rgb(13, 27, 72);
+}
+
+
+
+#dropdown-heading {
+
+  font-weight: 800;
+  font-size: 16px;
+  color: rgb(13, 27, 72);
+
+
+
+}
+
+
+
+.navbar-dark .navbar-nav a.nav-link {
+  color: #ffffff;
+  font-size: 1.1em;
+
+}
+
+.dropdown-menu {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+
+}
+
+@media only screen and (min-width: 440px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+
+
+
+  }
+
+  .dropdown-menu.show {
+    display: flex;
+
+
+
+  }
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+
+
+
+
+}
+
+.dropdown-menu li .dropdown-item {
+  color: rgb(25, 5, 80);
+  font-size: 14px;
+  padding: 0.5em 1em;
+
+
+
+}
+
+.dropdown-menu li .dropdown-item:hover {
+  color: rgb(195, 60, 84);
+}
+
+.dropdown-menu li:first-child a {
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(66, 71, 103);
+}
+
+.dropdown-menu li:first-child a:hover {
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 992px) {
+  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 1140px) {
+  .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+}
+
+
+.btn {
+  margin-right: 20px;
+
+}
+
+.nav-button {
+
+  transition: transform 0.2s ease;
+
+
+}
+
+.nav-button:hover {
+
+  transform: translateY(-2px);
+
+}
+
+.badge-b {
+
+  border: 1px solid rgb(202, 59, 59);
+  background-color: rgb(179, 61, 61);
+
+}
+.lg{
+
+  margin-right: 6px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1059px) {
+
+
+  .btn{
+
+margin-right: 0px;
+
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 995px) {
+
+
+  .btn{
+
+margin-right: 0px;
+
+  }
+}
+.btn-warning:hover{
+
+background-color: rgb(253, 249, 8) !important;
+}

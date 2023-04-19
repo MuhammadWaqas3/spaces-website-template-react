@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+  }
+  
+  
+  
+  .capstone-project {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    background-image: url('../../Images/herosectionimage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 10%;
+  }
+  
+  @media only screen and (min-width: 300px) {
+    .capstone-project {
+      background-image: url('../../Images/herosectionimage.png');
+      width: 100%;
+    height: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 2440px) {
+    .capstone-project {
+      background-image: url('../../Images/herosectionimage.png');
+    }
+  }
+  
+

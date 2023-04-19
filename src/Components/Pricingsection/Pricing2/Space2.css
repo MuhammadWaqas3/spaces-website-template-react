@@ -1,0 +1,109 @@
+.card.trending-spaces:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  
+  }
+  .card-footer {
+
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(245, 249, 254);
+    justify-content: space-evenly;
+    justify-content: center;
+  }
+  
+  .footera {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 15%;
+  }
+  
+  .footerb {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 15%;
+  }
+  
+  .footerc {
+  
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  
+
+  .card-title {
+
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: baseline;
+    letter-spacing: normal;
+  
+    color: rgb(13, 27, 72);
+  }
+  
+  .list-group {
+  
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+  }
+  
+  .list-group-item {
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 20.48px;
+    color: rgb(66, 71, 103);
+    list-style-type: none;
+    list-style: none;
+    padding: 5px 0;
+    vertical-align: baseline;
+    letter-spacing: normal;
+  
+  }
+  
+  .card-header {
+    background-color: white;
+  }
+  
+  .card-header,
+  .list-group-item {
+    border: none;
+  }
+  
+  .star {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  #fontawesome {
+  
+    margin-right: 10px;
+  }
+  
+  .card-title {
+  
+  
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .heading {
+    vertical-align: baseline;
+    letter-spacing: normal;
+  
+    color: rgb(13, 27, 72);
+    font-weight: 500;
+    font-size: 20px;
+  
+  }
+  .trending-spaces {
+
+    font-size: 12.8px;
+    font-weight: 400;
+  
+  }  

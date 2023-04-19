@@ -1,0 +1,25 @@
+
+
+    
+
+
+
+ .top-cities {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 255px;
+    height: auto;
+    margin: auto;
+  
+    margin-bottom: 6rem;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  
+  }
+  
+  
+  

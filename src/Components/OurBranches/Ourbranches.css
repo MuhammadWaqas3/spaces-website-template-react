@@ -1,0 +1,67 @@
+#container-j {
+
+
+    /* position: relative;
+    z-index: 1; */
+   
+    color: rgb(66, 71, 103);
+  
+    font-size: 1.5rem;
+  }
+  
+  .maap-mark {
+  
+  
+    margin-right: 8%;
+  }
+  
+  .map-mark {
+    color: rgb(66, 71, 103);
+    font-size: 1.5rem;
+    margin-right: 2%;
+  }
+  
+  .btn-11 {
+    margin-top: 5%;
+    padding: 1% 2%;
+    background-color: rgb(202, 41, 68);
+    width: 190px;
+  font-size: 17px;
+  font-family: 500;
+  color: white;
+  }
+  
+  .btn-11:hover{
+  
+    background-color: rgb(142, 44, 61);
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
+    color: white;
+  }
+  
+  
+  .card-text-1{
+  
+    font-size: 20px;
+    font-family: 300;
+    color:rgb(66, 71, 103);
+    
+  }
+  
+  .li-1 {
+  
+    font-size: 20px;
+    font-family: 300;
+    color:rgb(66, 71, 103);
+  
+  }
+  
+  .card-img-right-1 {
+  
+    width: 183%;
+    height: 120%;
+    padding-right: 9%;
+    position: relative;
+    right: 68%;
+  
+  }

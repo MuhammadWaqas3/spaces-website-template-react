@@ -1,0 +1,118 @@
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(1, 5, 54);
+  }
+  
+  .progress-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: rgb(1, 5, 54);
+    transition: width 1s ease-out;
+  }
+  
+  .progress-bar.animated {
+    width: 88%;
+  }
+  
+  
+  .container-d {
+  
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  
+  
+  #progress-bar-heading {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+  
+    margin-bottom: 30px;
+    color: rgb(13, 27, 72);
+  
+  
+  }
+  
+  .percentage {
+    position: relative;
+    left: 89%;
+    bottom: 68px;
+    color: rgb(13, 12, 70);
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width: 610px) {
+    .percentage {
+        position: relative;
+        left: 1%;
+        bottom: 10px;
+    }
+  }
+  
+  
+  
+  #text {
+    margin-top: 30px;
+    display: inline-block;
+  
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #424767;
+  }
+  
+  #button {
+    display: flex;
+    justify-content: flex-end;
+  
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+  
+  
+  }
+  
+  .btn-1 {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    left: 176%;
+    bottom: 102px;
+    transition: transform 0.2s ease;
+    background-color: rgb(9, 4, 73);
+    color: white;
+  }
+  
+  .btn-1:hover {
+  
+    color: white;
+  
+  
+  
+    transform: translateY(-2px);
+    background-color: rgb(0, 0, 0);
+  }
+  
+  @media screen and (max-width: 1192px) {
+    .btn-1 {
+      font-size: 18px;
+      padding: 10px 20px;
+      left: 0;
+      bottom: 0;
+      margin-top: 20px;
+      margin-bottom: 10%;
+  
+    }
+  }

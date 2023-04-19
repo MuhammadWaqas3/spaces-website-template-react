@@ -1,0 +1,13 @@
+.container-f {
+ 
+    margin-top: 30%;
+  
+  }
+
+  
+  .card.trending-spaces:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  
+  }
+    

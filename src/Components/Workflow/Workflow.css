@@ -1,0 +1,244 @@
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26vh;
+  }
+  
+  
+  .countries {
+    position: relative;
+    bottom: 59px;
+    color: rgb(66, 71, 103);
+    font-size: 12.8px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .countries {
+  
+      margin-top: 8px;
+      color: rgb(66, 71, 103);
+      font-size: 12.8px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  
+  
+  
+
+@media only screen and (min-width: 200px) {
+    .buttons {
+  
+  
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+  
+  .btn-12{
+  
+    width: 25%;
+    height: 60px;
+    background-color: rgb(4, 4, 68);
+   color: white;
+    align-items: center;
+  
+  }
+  .btn-12:hover{
+    color: white;
+    background-color: rgb(4, 4, 68);
+  
+  
+  }
+  
+  .btn-light {
+    background-color: rgb(237, 245, 255);
+    align-items: center;
+    margin-left: 5%;
+    width: 30%;
+    height: 60px;
+  }
+  
+  
+  .btn-light:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(237, 245, 255);
+  }
+  @media screen and (min-width: 200px) and (max-width: 1000px) {
+    .btn-12, .btn-light {
+      width: auto;
+      height: auto;
+      margin: 5px;
+    }
+  }
+  
+  /************************************************************************************************************************************/
+  #container-h{
+  
+  
+    margin-top: 7% ;
+  }
+  
+  
+  @media screen and (min-width: 805px) and (max-width: 1143px) {
+  
+  
+  .card-1{
+  
+    padding: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 20%;
+  }
+  
+  
+  }
+  
+  
+  .card-1 {
+    border: 1px solid rgb(255, 254, 254);
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 20%;
+  }
+  
+  .icon-circle {
+    width: 107px;
+    height: 101px;
+    background-color: rgb(230, 232, 236);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    margin-bottom: 36px;
+    margin-left: 26%;
+  }
+  
+  .header{
+  
+  font-size: 20px !important;
+  font-weight: 500!important;
+  color: rgb(13, 27, 72)!important;
+  }
+  
+  
+  .card-text-1{
+  
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  color: rgb(66, 71, 103) !important;
+  
+  }
+  .picture {
+    font-size: 52px;
+  }
+  
+  .btn-location {
+    width: 149%;
+    max-width: 244px;
+    border-radius: 6%;
+    background-color: rgb(1, 1, 39);
+    color: white;
+    margin-top: 5%;
+  }
+  
+  .btn-location:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    background-color: black;
+    color: white;
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 1025px) and (max-width: 1115px) {
+  
+  .card-ee{
+
+    padding-bottom:13%;
+  }
+
+  
+  }
+
+  @media screen and (min-width: 986px) and (max-width: 1051px) {
+
+  
+  .card-gg{
+    padding-bottom:12%;
+
+  }
+  }
+
+  @media screen and (min-width: 912px) and (max-width: 985px) {
+
+  .card-ff{
+
+padding-bottom: 29%;
+  }}
+
+
+
+  @media screen and (min-width: 899px) and (max-width: 911px) {
+  .card-ee{
+    padding-bottom: 3%;
+background-color: white;
+  }
+  }
+
+
+  @media screen and (min-width: 899px) and (max-width: 911px) {
+    .card-gg{
+
+      padding-bottom: 11%;
+
+    }
+
+  }
+
+  @media screen and (min-width: 832px) and (max-width: 898px) {
+    .card-ff{
+      padding-bottom: 39%;
+    }}
+
+
+    @media screen and (min-width: 832px) and (max-width: 837px) {
+      .card-ff{
+
+        padding-bottom: 32%;
+      }}
+
+
+      @media screen and (min-width: 826px) and (max-width: 831px) {
+        .card-ff{padding-bottom: 30%;}}
+
+
+        @media screen and (min-width: 808px) and (max-width: 816px) {
+          .card-gg{padding-bottom: 10%;}}
+  
+
+
+
+          @media screen and (min-width: 768px) and (max-width: 807px) {
+            .card-ff{
+              padding-bottom: 31%;
+            }}
+
+  .card-ff{
+
+    background-color: white;
+  }
+
+  .card-gg{
+    background-color: white;
+
+  }

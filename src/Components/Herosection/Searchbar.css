@@ -1,0 +1,186 @@
+.xyz {
+
+    margin-top: 6%;
+}
+
+
+.search-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+
+.input-group-text {
+
+
+    height: 20px;
+    border-radius: 1px solid rgb(255, 252, 252);
+
+}
+
+.iconx {
+
+    height: 20px;
+}
+
+.cc{
+
+    margin:0 !important;
+}
+
+.btn-a {
+    font-size: 16px!important;
+    font-weight: 500!important;
+
+    margin-left: 70px!important;
+    margin-right: 0px!important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    transition: transform 0.2s ease !important ;
+    width: 75% !important;
+    height: 51px !important;
+
+    background-color: rgb(20, 29, 61) !important ;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn-a:hover {
+
+    background-color: rgb(2, 5, 14)!important;
+    transform: translateY(-2px)!important;
+
+}
+
+.btn-a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1190px) {
+
+
+
+    .btn-a{
+
+        padding: 8px 2px;
+
+    }
+}
+@media screen and
+    
+ (min-width: 1055px) and (max-width:2000px){
+
+    .btn-a{
+
+margin-left:0 !important ;  
+margin-right:3% !important ;
+padding-left:0 !important ;
+padding-right:0 !important ;
+      width: 112%  !important;
+    }
+}
+
+
+
+@media screen and
+    
+ (min-width: 992px) and (max-width:1054px){
+ 
+
+    .btn-a{
+
+        margin-left: 0!important; 
+    margin-right: 0!important; 
+     padding-left: 0 !important; 
+     padding-right: 0 !important;
+    transition: transform 0.2s ease !important;
+    width: 118% !important;
+    }
+
+
+}
+
+
+
+@media screen and
+(min-width: 800px) and (max-width:991px){
+ 
+
+    .btn-a{
+
+       margin-left: 0px!important;
+    margin-right: 0px!important; 
+     padding-left: 40px !important; 
+     padding-right: 40px !important;
+    transition: transform 0.2s ease !important;
+    width: 100% !important;
+    height: 51px !important
+    } 
+
+}
+
+
+@media screen and
+(min-width: 386px) and (max-width:799px){
+ 
+
+    .btn-a{
+
+       margin-left: 0!important;
+    margin-right: 0!important; 
+     padding-left: 0 !important; 
+     padding-right: 0 !important;
+    transition: transform 0.2s ease !important;
+    width: 100% !important;
+    height: 51px !important
+    } 
+
+}
+@media screen and
+(min-width: 100px) and (max-width:385px){
+
+
+    .btn-a{
+
+        margin-left: 0!important;
+        margin-right: 0!important; 
+         padding-left: 0 !important; 
+         padding-right: 0 !important;
+        transition: transform 0.2s ease !important;
+        width: 100% !important;
+        height: 51px !important
+    }
+}
+
+.space {
+
+    font-family: inherit;
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+
+}
+
+.space-a {
+    font-weight: 500;
+    font-size: 50px;
+    font-family: inherit;
+    margin-bottom: 50px;
+
+}
+
+
+
+.xyz {
+    padding-top: 20px;
+
+}
+
+
+.container-a {
+    margin-bottom: 70px;
+
+}

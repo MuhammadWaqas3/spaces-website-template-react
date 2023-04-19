@@ -1,0 +1,11 @@
+.card-text-a {
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }

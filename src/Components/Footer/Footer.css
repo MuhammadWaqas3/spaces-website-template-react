@@ -1,0 +1,217 @@
+
+  body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+ 
+  
+  ul {
+    list-style: none;
+  }
+  
+  .footer {
+      background-color: rgb(13,27,72);
+      padding:3%; 
+     
+  }
+  
+  .footer-col {
+      width:25%; 
+      
+  }
+  
+  .footer-col h4{
+      font-size :18px; 
+      color:#ffffff; 
+      text-transform :capitalize; 
+      margin-bottom :35px;  
+      font-weight :500 ;  
+  }
+  .footer-col ul li:not(:last-child){
+     margin-bottom :10px ;
+  }
+  .footer-col ul li a{
+     font-size :16px ;  
+     text-transform :capitalize ;  
+     color:#ffffff ;  
+     text-decoration:none ;  
+     font-weight :300 ;  
+     display:block ;
+  }
+  @media(max-width :767px){
+   .footer-col{
+       width :50% ;
+       margin-bottom :30px ;
+   }
+  }
+  @media(max-width :574px){
+   .footer-col{
+       width :100% ;
+   }
+  }
+  .logo-a{
+   text-align:center ;
+   margin-left :49% ;
+  }
+
+.links:hover{
+
+color: #b33d3d;
+
+}
+
+  .footer-text-a{
+   text-align:center ;
+   margin:auto ;
+  }
+ 
+
+
+
+
+
+
+  .logo-1{
+   width:100px ;
+  }
+  .text-center-a{
+   margin-top :10% ;
+  }
+  .badge-b{ 
+    margin-left: 2%;  
+   border:solid rgb(6,6,82) thin ;   
+   background-color:#b33d3d ;   
+  }   
+ 
+
+
+
+
+  .App-store{
+    width: 71%; 
+margin-left: 0;
+height: 69px;
+font-size: 14px;
+font-weight: 500;
+margin-right: 9px;
+  }
+
+  .Google-play{
+    margin-left: 0;
+height: 69px;
+width: 72%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 0px;
+    margin-top: 5%;}
+ 
+
+
+
+
+  .logo-2{
+margin-right: 3%;
+   
+  }
+
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+
+
+  }
+  
+  .logo-3 {
+    font-size: 44px;
+    margin-right: 10px;
+  }
+  .text-container {
+    /* width: min(100%-30px,840px);
+    margin-inline: auto; */
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 1055px) and (max-width: 1065px){
+    .Google-play,
+    .App-store{width: 80%;}
+  }
+  @media screen and (min-width: 1066px) and (max-width: 1159px){
+    .Google-play,
+    .App-store{width: 79%;}
+  }
+  @media screen and (min-width: 828px) and (max-width: 1055px){
+    .Google-play,
+    .App-store{width: 105%;}
+  }
+  @media screen and (min-width: 802px) and (max-width: 828px){
+    .Google-play,
+    .App-store{width: 109%;}
+  }
+  @media screen and (min-width: 796px) and (max-width: 801px){
+    .Google-play,
+    .App-store{width: 110%;}
+  }
+  @media screen and (min-width: 768px) and (max-width: 795px){
+    .Google-play,
+    .App-store{width: 111%;}
+  }
+  @media screen and (min-width: 828px) and (max-width: 1055px){
+    .Google-play,
+    .App-store{width: 105%;}
+  }
+  @media screen and (min-width: 802px) and (max-width: 828px){
+    .Google-play,
+    .App-store{width: 109%;}
+  }
+  @media screen and (min-width: 796px) and (max-width: 801px){
+    .Google-play,
+    .App-store{width: 110%;}
+  }
+  @media screen and (min-width: 768px) and (max-width: 795px){
+      .Google-play,
+      .App-store{width:111%;}
+  }
+  @media screen and (min-width:1055px)and(max-width1065px){
+      .Google-play,
+      .App-store{width:80%;}
+  }
+  @media screen and(min-width828px)and(max-width1055px){
+      .Google-play,
+      .App-store{width:105%;}
+  }
+  @media screen and(min-width802px)and(max-width828px){
+      .Google-play,
+      .App-store{width:109%;}
+  }
+  @media screen and(min-width796px)and(max-width801px){
+      .Google-play,
+      .App-store{width:110%;}
+  }
+  @media screen and(min-width768px)and(max-width789px){
+      .Google-play,
+      .App-store{width:126%;}
+  }

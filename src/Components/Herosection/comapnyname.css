@@ -1,0 +1,41 @@
+#container-1 {
+    margin-left: 104px !important;
+   
+  
+   
+  }
+  
+  .company-names {
+  
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 996px) and (max-width: 1190px) {
+
+    #container-1 {margin-left: 72px !important;
+    
+      
+    }
+
+
+    .company-names {
+
+      width: 60%;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 995px) and (max-width: 1190px) {
+
+
+    #container-1 {margin-left: 104px !important;
+    
+      
+    
+    }
+    .company-names {width: 60%;}
+  }

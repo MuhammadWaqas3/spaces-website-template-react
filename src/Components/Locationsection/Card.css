@@ -1,0 +1,41 @@
+
+.top-cities {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 255px;
+    height: auto;
+    margin: auto;
+  }
+  
+
+
+.city-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .city-card:hover .card-image {
+    filter: brightness(80%);
+    transition: filter 0.2s ease;
+
+  }
+  
+  .city-card:hover .card-overlay {
+    display: none;
+  }
+
+
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(3, 3, 65);
+    opacity: 0.75;
+  }
+  
