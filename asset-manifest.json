@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spaces-website-template-react/static/css/main.a154f949.css",
+    "main.js": "/spaces-website-template-react/static/js/main.8e1332fd.js",
+    "static/media/herosectionimage.png": "/spaces-website-template-react/static/media/herosectionimage.a9da64ce253be6f577b8.png",
+    "index.html": "/spaces-website-template-react/index.html",
+    "main.a154f949.css.map": "/spaces-website-template-react/static/css/main.a154f949.css.map",
+    "main.8e1332fd.js.map": "/spaces-website-template-react/static/js/main.8e1332fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a154f949.css",
+    "static/js/main.8e1332fd.js"
+  ]
+}
