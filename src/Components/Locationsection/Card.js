@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Card.css';
 
@@ -6,7 +8,13 @@ import CardText from './Text';
 
 function CityCard(props) {
   const { city } = props;
-
+  CityCard.propTypes = {
+    city: PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+      imageUrl: PropTypes.string.isRequired,
+    }).isRequired,
+  };
   return (
     <div className="card top-cities city-card" id={`card${city.id}`}>
       <CardImage imageUrl={city.imageUrl} />

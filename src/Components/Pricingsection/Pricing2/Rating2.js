@@ -1,10 +1,16 @@
 
+import React from 'react';
 
+import PropTypes from 'prop-types';
 
 function Rating2(props) {
+
+    Rating2.propTypes = {
+        rating: PropTypes.number.isRequired,
+      };
     return (
 
-
+        
         <div>
 
 <span className="star fas fa-star fa-lg text-warning" />

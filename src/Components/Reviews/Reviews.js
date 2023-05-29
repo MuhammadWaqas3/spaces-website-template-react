@@ -1,5 +1,6 @@
 
 
+import React from 'react';
 
 
 import { useState, useEffect } from 'react';
@@ -17,7 +18,7 @@ function Reviews() {
       .catch(error => console.log(error));
   }, []);
 
-  const handleSelect = (selectedIndex, e) => { {/*const handleSelect = (selectedIndex, e) => { ... }: This declares a function called handleSelect which takes two parameters - selectedIndex and e (event). This function is called when a new item is selected in the Carousel component.*/}
+  const handleSelect = (selectedIndex) => { 
     setCurrentReview(selectedIndex);
   };
 
@@ -31,13 +32,15 @@ function Reviews() {
 {reviews.slice(0, 5).map((review, index) => (
   <CarouselItem key={index}>
     <img
-      className="d-block w-100 "
-      src={`https://demo.themesberg.com/bootstrap/spaces/assets/img/team/profile-picture-${index + 1}.jpg`}
-      alt={`picture${index}`}
-      width={100}
-      height={100}
-      onClick={() => setCurrentReview(index)}
-    />
+  className="d-block w-100"
+  src={`https://demo.themesberg.com/bootstrap/spaces/assets/img/team/profile-picture-${index + 1}.jpg`}
+  alt={`Review ${index + 1}`}
+  width={100}
+  height={100}
+  onClick={() => setCurrentReview(index)}
+/>
+
+{/* Yeh currentReview state ko select kiye gaye item ka index se update karta hai. */}
   </CarouselItem>
 ))}
           </Carousel>

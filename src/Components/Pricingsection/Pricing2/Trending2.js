@@ -1,4 +1,7 @@
 
+
+import React from 'react';
+
 import './Trending2.css';
 
 

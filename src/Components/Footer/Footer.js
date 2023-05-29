@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,75 +19,26 @@ function Footer() {
                 <div className="footer-col">
                     <h4>themesberg</h4>
                     <ul>
-                        <li><a href='#' className='links'>Blog</a></li>
-                        <li><a href='#' className='links'>Product</a></li>
-                        <li><a href='#' className='links'>About Us</a></li>
-                        <li><a href='#' className='links'>Contact Us</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Blog</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Product</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>About Us</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Contact Us</a></li>
                     </ul>
                 </div>
                 <div className="footer-col col-12 col-md-12 col-lg-6">
                     <h4 style={{ marginLeft: '9%' }}>Other</h4>
                     <ul>
-                        <li><a href='#' className='links'>Documentation<span className="badge links badge-sm badge-secondary ml-2 badge-b">v3.0</span></a></li>
-                        <li><a href='#' className='links'>Changelog</a></li>
-                        <li><a href='#' className='links'>Support</a></li>
-                        <li><a href='#' className='links'>Liscence</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Documentation<span className="badge links badge-sm badge-secondary ml-2 badge-b">v3.0</span></a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Changelog</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Support</a></li>
+                        <li><a href='https://github.com/MuhammadWaqas3' className='links'>Liscence</a></li>
                     </ul>
                 </div>
-                {/* <div className="footer-col">
-                    <h4>Get The App</h4>
-                    <p style={{ color: 'rgb(180, 180, 180)' }}>It's easy. Just select your device.</p>
-
-
-
-                   
-                    <div className='row d-flex justify-content-center' >
-
-
-                        <div className='col-12 col-md-12 col-lg-6 col-xl-6 '>
-
-                            <div className="buttons-w">
-                                <button type="button" className="btn btn-light btn-lg  App-store">
-
-
-
-                                    <div className="logo-container">
-                                        <i className="fab fa-apple logo-3"></i>
-                                        <div className="text-container">
-                                            <span style={{ fontSize: '11px', fontWeight: '400' }}>Available on</span>
-                                            <br />
-                                            <span>App Store</span>
-                                        </div>
-                                    </div>
-                                </button>
-                            </div>
-
-                  
-
-                            <div className='col-12 col-md-12 col-lg-6 col-xl-6 '>
-                                <button type="button" className="btn btn-light btn-lg Google-play">
-
-
-
-                                    <div className="logo-container">
-                                        <i className="fab fa-google-play logo-3"></i>
-                                        <div className="text-container">
-                                            <span style={{ fontSize: '11px', fontWeight: '400' }}>Available on</span>
-                                            <br />
-                                            <span>Google Play</span>
-                                        </div>
-                                    </div>
-
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div> */}
+               
 
 <div className="footer-col">
   <h4>Get The App</h4>
-  <p style={{ color: 'rgb(180, 180, 180)' }}>It's easy. Just select your device.</p>
+  <p style={{ color: 'rgb(180, 180, 180)' }}>It&apos;s easy. Just select your device.</p>
 
   <div className=' justify-content-center'>
     <div className='col'>

@@ -168,3 +168,16 @@ margin-right: 0px;
 
 background-color: rgb(253, 249, 8) !important;
 }
+
+
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+
+.btn{
+
+  margin-left: -1%;
+  width:33%;
+}
+
+
+
+}

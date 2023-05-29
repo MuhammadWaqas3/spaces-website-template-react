@@ -1,14 +1,29 @@
+
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import Rating from './Rating';
 import './Space.css';
 
 
 
 function Space(props) {
+
+  Space.propTypes = {
+    imgSrc: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    rating: PropTypes.number.isRequired,
+    location: PropTypes.string.isRequired,
+    distances: PropTypes.arrayOf(PropTypes.string).isRequired,
+    price: PropTypes.number.isRequired,
+    people: PropTypes.number.isRequired,
+    sqft: PropTypes.number.isRequired,
+  };
     return (
       <div className="col-sm-12 col-lg-4 col-md-12 col-12 col-xl-4 col-xxl-4">
         <div className="card trending-spaces" style={{ height: '100%' }}>
           <div className="card-header">
-            <img className="card-img-top" src={props.imgSrc} alt="Card image" />
+            <img className="card-img-top" src={props.imgSrc} alt="Space Thumbnail" />
           </div>
           <div className="card-body">
             <h4 className="card-title">{props.title}</h4>

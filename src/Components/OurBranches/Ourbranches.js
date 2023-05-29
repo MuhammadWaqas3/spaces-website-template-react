@@ -1,3 +1,7 @@
+
+import React from 'react';
+
+
 import './Ourbranches.css';
 
 function Ourbranches () {
@@ -41,7 +45,7 @@ function Ourbranches () {
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-12 ">
-                <img className="card-img-right-1" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/illustrations/world-map.svg" alt="Card Image" />
+                <img className="card-img-right-1" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/illustrations/world-map.svg" alt="Card " />
               </div>
             </div>
             <div className="text-left">

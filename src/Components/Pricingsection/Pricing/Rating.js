@@ -1,7 +1,13 @@
 
 
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Rating(props) {
+
+    Rating.propTypes = {
+        rating: PropTypes.number.isRequired,
+      };
     return (
 
 

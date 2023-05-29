@@ -9,7 +9,6 @@ import Registration from './Register';
 import './Navbar.css';
 
 
-
 function MegamenuNavbar() {
 
   // const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
@@ -22,7 +21,7 @@ function MegamenuNavbar() {
 
     < nav className="navbar navbar-expand-lg justify-content-center top-fix" style={{ backgroundColor: 'transparent' }}>
       <div className="container-fluid">
-        <a className="navbar-brand logo" href="#">
+        <a className="navbar-brand logo" href="https://github.com/MuhammadWaqas3">
           <img className="navbar-brand-dark common" src="https://demo.themesberg.com/bootstrap/spaces/assets/img/brand/light.svg" height={35} alt="Logo light" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,92 +30,92 @@ function MegamenuNavbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#" />
+              <a className="nav-link active" aria-current="page" href="https://github.com/MuhammadWaqas3" />
 
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" />
+              <a className="nav-link" href="https://github.com/MuhammadWaqas3" />
             </li>
             {/*-------------------------------Front pages Section-------------------------------------------------------*/}
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-light" href="https://github.com/MuhammadWaqas3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Frontpages
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <ul>
-                  <li><a className="dropdown-item" id="dropdown-heading" href="#">Main
+                  <li><a className="dropdown-item" id="dropdown-heading" href="https://github.com/MuhammadWaqas3">Main
                     Pages</a></li>
-                  <li><a className="dropdown-item" href="#">Landing 1</a></li>
-                  <li><a className="dropdown-item" href="#">Landing 2</a></li>
-                  <li><a className="dropdown-item" href="#">Landing 3</a></li>
-                  <li><a className="dropdown-item" href="#">About</a></li>
-                  <li><a className="dropdown-item" href="#">pricing</a></li>
-                  <li><a className="dropdown-item" href="#">Team</a></li>
-                  <li><a className="dropdown-item" href="#">Contact</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Landing 1</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Landing 2</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Landing 3</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">About</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">pricing</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Team</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Contact</a></li>
                   <li>
-                    <a className="dropdown-item" id="legal" href="#">Legal</a>
+                    <a className="dropdown-item" id="legal" href="https://github.com/MuhammadWaqas3">Legal</a>
                   </li>
-                  <li><a className="dropdown-item" href="#">Legal Center</a></li>
-                  <li><a className="dropdown-item" href="#">Terms &amp; Agreement</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Legal Center</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Terms &amp; Agreement</a></li>
                 </ul>
                 <ul>
-                  <li><a className="dropdown-item" id="dropdown-heading" href="#">Listings</a></li>
-                  <li><a className="dropdown-item" href="#">All Spaces</a></li>
-                  <li><a className="dropdown-item" href="#">Map View</a></li>
-                  <li><a className="dropdown-item" href="#">All Spaces Sidebar</a></li>
-                  <li><a className="dropdown-item" href="#">Space Details</a></li>
-                  <li><a className="dropdown-item" href="#">Profile</a></li>
-                  <li><a className="dropdown-item" id="support" href="#">Support</a></li>
-                  <li><a className="dropdown-item" href="#">Support Center</a></li>
-                  <li><a className="dropdown-item" href="#">Support Topic </a></li>
-                  <li><a className="dropdown-item" id="blog" href="#">Blog</a></li>
-                  <li><a className="dropdown-item" href="#">Blog</a></li>
-                  <li><a className="dropdown-item" href="#">Blog Post</a></li>
+                  <li><a className="dropdown-item" id="dropdown-heading" href="https://github.com/MuhammadWaqas3">Listings</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">All Spaces</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Map View</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">All Spaces Sidebar</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Space Details</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Profile</a></li>
+                  <li><a className="dropdown-item" id="support" href="https://github.com/MuhammadWaqas3">Support</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Support Center</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Support Topic </a></li>
+                   <li><a className="dropdown-item" id="blog" href="https://github.com/MuhammadWaqas3">Blog</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Blog</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Blog Post</a></li>
                 </ul>
                 <ul>
-                  <li><a className="dropdown-item" id="dropdown-heading" href="#">User</a></li>
-                  <li><a className="dropdown-item" href="#">Sign In</a></li>
-                  <li><a className="dropdown-item" href="#">Sign Up</a></li>
-                  <li><a className="dropdown-item" href="#">Forgot Password</a></li>
-                  <li><a className="dropdown-item" href="#">Reset Password</a></li>
-                  <li><a className="dropdown-item" id="special" href="#">Special</a></li>
-                  <li><a className="dropdown-item" href="#">404 Not Found</a></li>
-                  <li><a className="dropdown-item" href="#">500 Server Error</a></li>
-                  <li><a className="dropdown-item" href="#">Maintenance</a></li>
-                  <li><a className="dropdown-item" href="#">coming soon</a></li>
-                  <li><a className="dropdown-item" href="#">Blank Page</a></li>
+                  <li><a className="dropdown-item" id="dropdown-heading" href="https://github.com/MuhammadWaqas3">User</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Sign In</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Sign Up</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Forgot Password</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Reset Password</a></li>
+                  <li><a className="dropdown-item" id="special" href="https://github.com/MuhammadWaqas3">Special</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">404 Not Found</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">500 Server Error</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Maintenance</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">coming soon</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Blank Page</a></li>
                 </ul>
               </div>
             </li>
             {/*--------------------------------------------------------------Dashboard section----------------------------------------*/}
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-light" href="https://github.com/MuhammadWaqas3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dashboard
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <ul>
-                  <li><a className="dropdown-item" id="dropdown-heading" href="#">User
+                  <li><a className="dropdown-item" id="dropdown-heading" href="https://github.com/MuhammadWaqas3">User
                     Dashboard</a></li>
-                  <li><a className="dropdown-item" href="#">My Account</a></li>
-                  <li><a className="dropdown-item" href="#">Setting</a></li>
-                  <li><a className="dropdown-item" href="#">Security</a></li>
-                  <li><a className="dropdown-item" href="#">Items</a></li>
-                  <li><a className="dropdown-item" href="#">My Items</a></li>
-                  <li><a className="dropdown-item" href="#">Edit Items</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">My Account</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Setting</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Security</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Items</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">My Items</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Edit Items</a></li>
                 </ul>
                 <ul>
-                  <li><a className="dropdown-item" id="dropdown-heading" href="#">Messages</a></li>
-                  <li><a className="dropdown-item" href="#">Messages</a></li>
-                  <li><a className="dropdown-item" href="#">Chat</a></li>
-                  <li><a className="dropdown-item" href="#">Billing</a></li>
-                  <li><a className="dropdown-item" href="#">Billing Details</a></li>
-                  <li><a className="dropdown-item" href="#">Invoice</a></li>
+                  <li><a className="dropdown-item" id="dropdown-heading" href="https://github.com/MuhammadWaqas3">Messages</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Messages</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Chat</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Billing</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Billing Details</a></li>
+                  <li><a className="dropdown-item" href="https://github.com/MuhammadWaqas3">Invoice</a></li>
                 </ul>
               </div>
               {/*--------------------------------------------------------------Support section----------------------------------------*/}
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-light" href="https://github.com/MuhammadWaqas3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Support
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -145,13 +144,13 @@ function MegamenuNavbar() {
         {/*------------------------------------------ Last two Buttons --------------------------------------------*/}
 
           <div className="d-none d-lg-block @@cta_button_classes mr-5 ;">
-            <a href="#" target="_blank" className="btn nav-button btn-md
+            <a href="https://github.com/MuhammadWaqas3" target="_blank" rel="noopener noreferrer" className="btn nav-button btn-md
               btn-outline-light animate-up-2 mr-2">
               <i className="fas fa-book lg" />
               <span className="d-xl-none">Docs</span>
               <span className="d-noned-xl-inline ">Components</span>
             </a>
-            <a href="#" target="_blank" className="btn btn-md nav-button btn-danger
+            <a href="https://github.com/MuhammadWaqas3" target="_blank" rel="noopener noreferrer" className="btn btn-md nav-button btn-danger
               animate-up-2">
               <i className="fas fa-shopping-bag lg" />
               Buy now

@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 // import React from "react";
 import styled from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import { useFormik } from "formik";
+import PropTypes from 'prop-types';
 import { signUpSchema } from "./schemas";
 
 const initialValues = {
@@ -27,11 +29,16 @@ const Registration = (props) => {
         action.resetForm();
       },
     });
-
-  const [show, setShow] = useState(false);
+   
+  const [ setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleShow = () => setShow(true);
+
+  Registration.propTypes = {
+    show: PropTypes.bool.isRequired,
+    onHide: PropTypes.func.isRequired,
+  };
 
   return (
     <>
@@ -132,7 +139,7 @@ const Registration = (props) => {
                     ) : null}
                   </div>
                   <div className="l-buttons">
-                    <a href="#" className="">
+                    <a href="https://www.google.com" className="">
                       Want to register using Gmail?
                     </a>
                     <button className="input-button" type="submit">
@@ -141,13 +148,13 @@ const Registration = (props) => {
                   </div>
                 </form>
                 <p className="sign-up">
-                  Already have an account? <a href="#">Sign In now</a>
+                  Already have an account? <a href="https://www.google.com">Sign In now</a>
                 </p>
               </div>
               <div className="l-right">
                 <img
                   src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dfd2ec5a01006fd8c4d7592a381d3776&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
+                  alt="login "
                 />
               </div>
             </div>
